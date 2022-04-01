@@ -10,17 +10,21 @@
 </head>
 
 <body>
+    <!-- clase calculadora, la que envuelve todos los elementos -->
     <div class="calculadora">
+        <!-- La pantalla, donde se encuentra el resultado y el preview del resultado -->
         <div class="pantalla">
             <div class="prev"></div>
             <div class="input"></div>
         </div>
+        <!-- Los operadores basicos, suma, resta, multiplicacion y division -->
         <div class="operadores">
             <button onclick="actualizarCalculo('+')">+</button>
             <button onclick="actualizarCalculo('-')">-</button>
             <button onclick="actualizarCalculo('/')">/</button>
             <button onclick="actualizarCalculo('*')">*</button>
         </div>
+        <!-- Los digitos del 1 al 9, y tambien se incluye el 0, el punto y el boton de igual -->
         <div class="digitos">
             <button onclick="actualizarCalculo('1')">1</button>
             <button onclick="actualizarCalculo('2')">2</button>
