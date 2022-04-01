@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Basica</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="pantalla">
+            <div class="prev"></div>
+            <div class="input"></div>
+        </div>
+        <div class="operadores">
+            <button onclick="actualizarCalculo('+')">+</button>
+            <button onclick="actualizarCalculo('-')">-</button>
+            <button onclick="actualizarCalculo('/')">/</button>
+            <button onclick="actualizarCalculo('*')">*</button>
+        </div>
+        <div class="digitos">
+            <button onclick="actualizarCalculo('1')">1</button>
+            <button onclick="actualizarCalculo('2')">2</button>
+            <button onclick="actualizarCalculo('3')">3</button>
+            <button onclick="actualizarCalculo('4')">4</button>
+            <button onclick="actualizarCalculo('5')">5</button>
+            <button onclick="actualizarCalculo('6')">6</button>
+            <button onclick="actualizarCalculo('7')">7</button>
+            <button onclick="actualizarCalculo('8')">8</button>
+            <button onclick="actualizarCalculo('9')">9</button>
+            <button onclick="actualizarCalculo('0')">0</button>
+            <button onclick="actualizarCalculo('.')">.</button>
+            <button onclick="imprimirResultado()">=</button>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
